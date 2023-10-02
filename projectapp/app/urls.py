@@ -9,7 +9,7 @@ urlpatterns = [
     #order matter when comes to ocnversion
     #dynamic path with data type conversion
     path("<int:month>",views.monthly_challenge_by_number),
-    path("<str:month>",views.monthly_challenge),
+    path("<str:month>",views.monthly_challenge,name="monthly-challenge"),
 
     
     
